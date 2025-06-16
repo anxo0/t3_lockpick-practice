@@ -351,7 +351,7 @@
 
     // Event listener for pressing 'd' key
     document.addEventListener('keydown', function (event) {
-      if (event.key === 'd' && !isPinning) {
+      if ((event.key === 'd' || event.key === 'D') && !isPinning) {
         applyTension();
       } else if (event.key === 'Backspace' || event.key === 'Escape') {
         lockContainer.classList.add('hide');
@@ -361,7 +361,7 @@
 
     // Event listener for releasing 'd' key
     document.addEventListener('keyup', function (event) {
-      if (event.key === 'd' && isPinning) {
+      if ((event.key === 'd' || event.key === 'D') && isPinning) {
         releaseTension();
       }
     });
