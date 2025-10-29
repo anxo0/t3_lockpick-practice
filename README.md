@@ -12,6 +12,14 @@ It allows players to **practice the lockpicking system outside of FiveM**, direc
 - Perfect for **training reflexes and precision** before using the system in-game.
 
 Based on the original work by [**T3development**](https://github.com/T3development).
+---
+
+## 🗝️ Lockpick Instructions
+
+- Hold **D** to **tension the lock**.  
+- While holding **D**, use the **mouse** to move the pins and align them.  
+- Release **D** if you need to reset the tension or try again.  
+- Tip: keep tension steady and move the pins **smoothly** to avoid breaking them.
 
 ---
 
